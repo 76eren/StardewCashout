@@ -1,0 +1,9 @@
+{
+  "Name": "Stardew Gambling",
+  "Author": "76eren",
+  "Version": "1.0.0",
+  "Description": "Allows Qi Coins to be exchanged for gold at the Casino.",
+  "UniqueID": "eren76.StardewGambling",
+  "EntryDll": "StardewGambling.dll",
+  "MinimumApiVersion": "4.0.0"
+}

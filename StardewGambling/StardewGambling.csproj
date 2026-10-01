@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <EnableModDeploy>true</EnableModDeploy>
+        <EnableModZip>true</EnableModZip>
+        <!-- I deploy to a copy of the game I have made so it doesn't interfere with my already installed mods, easier for testing -->
+        <GamePath>C:\Users\Eren\Desktop\std</GamePath>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+    </ItemGroup>
+
+</Project>
